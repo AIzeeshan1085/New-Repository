@@ -1,0 +1,7 @@
+class Fruit:
+    def __init__(self,name):
+        self.name = name
+f1 = Fruit("Apple")
+f2 = Fruit("Orange")
+print(f1.name)
+print(f2.name)
